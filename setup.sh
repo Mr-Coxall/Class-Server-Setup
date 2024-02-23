@@ -20,6 +20,7 @@ curl -sS https://starship.rs/install.sh | sh
 
 # Linux utilities to load and remove (terminal web servers)
 apt install curl -y
+apt install wget -y
 apt install git -y
 apt install gh -y
 apt install tree -y
