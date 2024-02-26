@@ -49,10 +49,10 @@ Setup instructions for Debian server for high school classroom.
       - ```sh
         allow-hotplug enp1s0
         iface enp1s0 inet static
-          address 172.22.52.80
+          address 10.100.204.80
           netmask 255.255.255.0
-          gateway 172.22.52.1
-          dns-nameervers 8.8.8.8 8.8.4.4
+          gateway 10.100.204.1
+          dns-nameervers 10.100.204.1
         ```
 - install cron to reboot daily
   - sudo crontab -e
