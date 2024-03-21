@@ -71,6 +71,10 @@ chmod a+x /usr/local/bin/bun
 # source /root/.bashrc
 bun --version
 
+# python
+# Note: most likely installed but make python point to python3
+sudo apt install python-is-python3
+
 # Java
 apt install default-jdk -y
 java --version
