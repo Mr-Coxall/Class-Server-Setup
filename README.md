@@ -52,7 +52,7 @@ Setup instructions for Debian server for high school classroom.
           address 10.100.204.80
           netmask 255.255.255.0
           gateway 10.100.204.1
-          dns-nameervers 10.100.204.1
+          dns-nameservers 10.100.204.1
         ```
 - install cron to reboot daily
   - sudo crontab -e
