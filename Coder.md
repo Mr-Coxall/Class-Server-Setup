@@ -10,7 +10,7 @@ https://coder.com/docs/install/cli
 
 ## Once Installed
 
-To run a Coder server:
+To run Coder server as a service:
 ```sh
 sudo systemctl enable --now coder
 journalctl -u coder.service -b
