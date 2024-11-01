@@ -20,7 +20,6 @@ journalctl -u coder.service -b
 
 - /etc/coder.d/coder.env
 ```sh
-CODER_HTTP_ADDRESS=# Coder must be reachable from an external URL for users and workspaces to connect.
 CODER_HTTP_ADDRESS="10.100.204.204:3000"
 CODER_ACCESS_URL="http://10.100.204.204:3000"
 CODER_PG_CONNECTION_URL=
