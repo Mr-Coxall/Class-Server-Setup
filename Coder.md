@@ -18,3 +18,7 @@ To run a Coder server:
   Configuring Coder: https://coder.com/docs/admin/configure
 
 To connect to a Coder deployment:
+
+## Configure
+
+/home/coder/.config/coderv2
