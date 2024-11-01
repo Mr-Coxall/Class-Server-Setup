@@ -2,7 +2,11 @@
 
 ## Install
 
+- ensure you are NOT root while installing
 https://coder.com/docs/install/cli
+
+- do not forget to install docker and then add "coder" user to docker group
+  - https://docs.docker.com/engine/install/linux-postinstall/
 
 ## Once Running
 
