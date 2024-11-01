@@ -25,4 +25,5 @@ To connect to a Coder deployment:
 
 ## Configure
 
-/home/coder/.config/coderv2
+- /home/coder/.config/coderv2
+- /etc/coder.d
