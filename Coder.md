@@ -8,12 +8,12 @@ https://coder.com/docs/install/cli
 - do not forget to install docker and then add "coder" user to docker group
   - https://docs.docker.com/engine/install/linux-postinstall/
 
-## Once Running
+## Once Installed
 
 To run a Coder server:
 
-  $ sudo systemctl enable --now coder
-  $ journalctl -u coder.service -b
+  - sudo systemctl enable --now coder
+  - journalctl -u coder.service -b
 
 ## Configure
 
