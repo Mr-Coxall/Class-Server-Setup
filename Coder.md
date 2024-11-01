@@ -42,3 +42,4 @@ CODER_OAUTH2_GITHUB_CLIENT_SECRET="yyy"
 - you must create an "OAuth App" under "Developer Settings" in GitHub
   - "Homepage URL": http://10.100.204.204:3000
   - "Authorization Callback URL": http://10.100.204.204:3000
+- you must then "authorize" the new app on the ORG so people are authorized to access
