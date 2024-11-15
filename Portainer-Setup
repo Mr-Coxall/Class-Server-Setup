@@ -15,6 +15,8 @@
   - download and install server: docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.21.4
   - login: https://localhost:9443
 
+## Install Nginx Proxy manager
+
 ## Install Coder with Docker Compose
 - use provided compose file: https://coder.com/docs/install/docker#install-coder-via-docker-compose
   - update docker group_add: (from above)
