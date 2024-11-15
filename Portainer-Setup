@@ -17,7 +17,9 @@
 
 ## Install Nginx Proxy manager, in Portainer
 - instaall: https://www.youtube.com/watch?v=bQnh94v0iBg
-- setup: https://www.youtube.com/watch?v=DZRG2sezIl4
+- setup:
+  - https://www.youtube.com/watch?v=DZRG2sezIl4
+  - https://www.youtube.com/watch?v=nmE28_BA83w
 
 ## Install Coder with Docker Compose, in Portainer
 - use provided compose file: https://coder.com/docs/install/docker#install-coder-via-docker-compose
