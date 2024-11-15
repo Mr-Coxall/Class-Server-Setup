@@ -1,0 +1,11 @@
+# Setting up Server using Docker and Portainer to run apps
+
+## Install Debian
+- install base Debian Slim as normal
+
+## Install Docker
+- install docker as per docs
+- no need to add any use to the docker group
+- get the docker user ID (like 999 or 994)
+
+## Install Portainer
