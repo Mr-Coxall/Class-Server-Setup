@@ -5,7 +5,16 @@
 
 ## Install Docker
 - install docker as per docs
+  - https://docs.docker.com/engine/install/debian/
 - no need to add any use to the docker group
 - get the docker user ID (like 999 or 994)
 
-## Install Portainer
+## Install Portainer Community Edition
+- https://docs.portainer.io/start/install-ce/server/docker/linux
+  - create volume: docker volume create portainer_data
+  - download and install server: docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:2.21.4
+  - login: https://localhost:9443
+
+## Install Coder with Docker Compose
+- use provided compose file: https://coder.com/docs/install/docker#install-coder-via-docker-compose
+  - update docker group_add: (from above)
