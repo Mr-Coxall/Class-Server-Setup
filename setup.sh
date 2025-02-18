@@ -48,6 +48,7 @@ cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
 make install
 
 # Apache 2, PHP & MySQL
+# double check that these commands have run, you might have to do them by hand!
 apt install apache2 -y
 a2enmod userdir
 systemctl restart apache2
