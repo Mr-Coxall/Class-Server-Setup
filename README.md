@@ -27,6 +27,10 @@ Setup instructions for Debian server for high school classroom.
     - ```sh
       dpkg-reconfigure console-setup
       ```
+  - if you want teacher accout to be sudo
+    - ```sh
+      usermod -aG sudo <login-id>
+      ```
 - run the following setup script
   - ```sh
     cd /tmp
