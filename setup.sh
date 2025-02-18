@@ -102,4 +102,4 @@ groupadd TEJ4M
 
 # reboot server
 apt autoremove -y
-reboot now
+systemctl reboot
