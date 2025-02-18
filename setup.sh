@@ -4,7 +4,9 @@ cd /tmp
 
 # update server
 apt update && upgrade -y
-cp ./Class-Server-Setup/files/ /etc/skel/
+
+# to update the .bashrc and /home directory for new users
+cp -r ./Class-Server-Setup/files/skel/ /etc/
 
 # add mr-coxall user to sudo
 apt-get install sudo
