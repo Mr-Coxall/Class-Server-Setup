@@ -36,8 +36,8 @@ Setup instructions for Debian server for high school classroom.
     cd /tmp
     git clone https://github.com/Mr-Coxall/Class-Server-Setup
     cd Class-Server-Setup
-    chmod +x ./setup
-    ./setup.sh
+    chmod +x ./setup.sh
+    sh ./setup.sh
     ```
   - allow root to login to GUI (if you installed one!):
     - ```sh
