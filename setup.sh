@@ -10,7 +10,7 @@ cp -r ./Class-Server-Setup/files/skel/ /etc/
 
 # add mr-coxall user to sudo
 apt-get install sudo
-usermod -aG sudo mr-coxall
+usermod -aG sudo <some_teacher>
 
 # add "Fish" shell
 echo 'deb http://download.opensuse.org/repositories/shells:/fish:/release:/3/Debian_12/ /' | tee /etc/apt/sources.list.d/shells:fish:release:3.list
